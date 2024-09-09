@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  background-color: #161b22;
+  height: 50px;
+  align-content: center;
+  justify-content: space-between;
+  color: #b4b4b4;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li:last-child {
+  margin-right: 30px;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+html {
+  background-color: #0d1117;
+}
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #e6edf3;
+  font-weight: 400;
+}

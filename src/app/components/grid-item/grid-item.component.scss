@@ -1,0 +1,42 @@
+* {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+article {
+  display: flex;
+  margin: 10px;
+}
+
+.id {
+  font-size: 16px;
+  width: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.titulo {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.titulo:hover {
+  cursor: pointer;
+  color: #3fb950;
+}
+
+.detalhes {
+  display: flex;
+}
+
+.detalhe {
+  font-size: 12px;
+  color: #6e7681;
+  margin-right: 10px;
+}
+
+.detalhe-click:hover {
+  cursor: pointer;
+  color: #3fb950;
+}

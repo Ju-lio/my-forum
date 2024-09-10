@@ -2,7 +2,7 @@
   <img src="./media/logo.png" alt="Logo">
 </p>
 
-# My TabNews 💻
+# My TabNews  💻
 
 > Projeto destinado a aprimorar meus conhecimentos em Angular. Uma aplicação de um forum, inspirado no site TabNews.
 
@@ -39,7 +39,7 @@
 ## ⚡ Tecnologias usadas ⚙️
 <p align="center">
   
- ![Angular](https://img.shields.io/badge/-Angular-black?style=flat-square&logo=angular) ![Prettier](https://img.shields.io/badge/-Prettier-273943?style=flat-square&logo=prettier) ![ESLint](https://img.shields.io/badge/-ESLint-4930BD?style=flat-square&logo=eslint) 
+ ![Angular](https://img.shields.io/badge/-Angular-red?style=flat-square&logo=angular) ![Prettier](https://img.shields.io/badge/-Prettier-273943?style=flat-square&logo=prettier) ![ESLint](https://img.shields.io/badge/-ESLint-4930BD?style=flat-square&logo=eslint) 
  
 </p>
 

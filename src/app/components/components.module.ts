@@ -6,7 +6,6 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderToolbarComponent } from './header-toolbar/header-toolbar.component';
 import { GridItemComponent } from './grid-item/grid-item.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { PerfilComponent } from './perfil/perfil.component';
     GridComponent,
     GridItemComponent,
     NotFoundComponent,
-    PerfilComponent,
   ],
   imports: [CommonModule],
   exports: [

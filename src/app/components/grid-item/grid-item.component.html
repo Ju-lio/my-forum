@@ -2,14 +2,15 @@
   <h1 class="id">{{ id }}.</h1>
   <section>
     <p class="titulo">
-      Tudo o que eu entendi sobre Visão geral de algoritmos - Resumo -
-      CoderCursos Java, Aula: 2
+      {{ titulo }}
     </p>
     <div class="detalhes">
-      <p class="detalhe">1 tabcoin</p>
-      <p class="detalhe">0 comentário</p>
-      <p class="detalhe detalhe-click">AndreFrancelino</p>
-      <p class="detalhe">28 minutos atrás</p>
+      <p class="detalhe">{{ likes }} likes</p>
+      <p class="detalhe">{{ comentarios }} comentários</p>
+      <p class="detalhe detalhe-click" (click)="goToPerfil(username ?? '')">
+        {{ username }}
+      </p>
+      <p class="detalhe">{{ horario }}</p>
     </div>
   </section>
 </article>

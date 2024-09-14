@@ -4,7 +4,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
   {
-    path: ':id',
+    path: 'perfil/:id',
     loadChildren: () =>
       import('./modules/perfil/perfil.module').then((m) => m.PerfilModule),
   },

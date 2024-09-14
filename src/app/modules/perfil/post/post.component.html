@@ -1,0 +1,19 @@
+<main>
+  <aside>
+    <p>ꓥ<br />{{ likes }}<br />V</p>
+    <div class="aside-bar"></div>
+  </aside>
+  <article>
+    <header>
+      <a class="user" routerLink="username">{{ username }}</a>
+      {{ tempoLeitura }} min de leitura · {{ getDiasAtras(data ?? "") }} dias
+      atrás
+    </header>
+    <section>
+      <h1>{{ titulo }}</h1>
+      <p>
+        {{ texto }}
+      </p>
+    </section>
+  </article>
+</main>

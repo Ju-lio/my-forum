@@ -12,11 +12,16 @@ export class GridItemComponent {
   @Input() likes?: number;
   @Input() comentarios?: number;
   @Input() username?: string;
+  @Input() postId?: string;
   @Input() horario?: string;
 
   constructor(private router: Router) {}
 
   goToPerfil(username: string) {
     this.router.navigate([`/${username}`]);
+  }
+
+  goToPost(username: string, postId: string) {
+    this.router.navigate([`/${username}/${postId}`]);
   }
 }

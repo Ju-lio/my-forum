@@ -16,7 +16,9 @@
 
 - [x] Feed com os artigos
 - [x] Perfil do usuário
-- [ ] Página do artigo
+- [x] Página do artigo
+- [ ] Vincular rotas e parametros
+- [ ] Implementação de serviços
 - [ ] Cadastro de usuários
 - [ ] Login de usuário
 - [ ] Postagem de artigos
@@ -26,7 +28,7 @@
 - [ ] Exclusão de artigos
 - [ ] Loading & Image Skeleton
 - [ ] Separaçao por paginas
-- [ ] Erro 404
+- [x] Erro 404
 - [ ] Perdeu a senha?
 - [ ] Lazy & Suspente
 - [ ] Tema claro/escuro

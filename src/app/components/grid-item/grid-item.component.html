@@ -1,7 +1,7 @@
 <article>
   <h1 class="id">{{ id }}.</h1>
   <section>
-    <p class="titulo">
+    <p class="titulo" (click)="goToPost(username ?? '', postId ?? '')">
       {{ titulo }}
     </p>
     <div class="detalhes">

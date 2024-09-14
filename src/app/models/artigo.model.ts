@@ -4,4 +4,6 @@ export interface Artigo {
   comentarios: number;
   username: string;
   horario: string;
+  data: string;
+  texto: string;
 }

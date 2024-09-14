@@ -21,6 +21,8 @@ export class GridComponent implements OnInit {
         comentarios: 271,
         username: 'momo',
         horario: '20:27',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Preciso de ajuda com Functions em JavaScript',
@@ -28,6 +30,8 @@ export class GridComponent implements OnInit {
         comentarios: 17,
         username: 'jonasAquino39',
         horario: '20:20',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Preciso de ajuda com Functions em TypeScript',
@@ -35,6 +39,8 @@ export class GridComponent implements OnInit {
         comentarios: 23,
         username: 'jonasAquino39',
         horario: '19:22',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Vocês utilizam HTML semântico?',
@@ -42,6 +48,8 @@ export class GridComponent implements OnInit {
         comentarios: 101,
         username: 'guilhermeazevedo79',
         horario: '18:20',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Vocês tem que evitar o uso de funções impuras!',
@@ -49,6 +57,8 @@ export class GridComponent implements OnInit {
         comentarios: 10,
         username: 'leonardo77',
         horario: '17:33',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -57,6 +67,8 @@ export class GridComponent implements OnInit {
         comentarios: 4,
         username: 'ArthurZin',
         horario: '20:01',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -65,6 +77,8 @@ export class GridComponent implements OnInit {
         comentarios: 0,
         username: 'filipeleonelbatista',
         horario: '20:06',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -73,6 +87,8 @@ export class GridComponent implements OnInit {
         comentarios: 1,
         username: 'kht',
         horario: '20:05',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Diátaxis: um framework para melhores documentações técnicas',
@@ -80,6 +96,8 @@ export class GridComponent implements OnInit {
         comentarios: 0,
         username: 'lemuelroberto',
         horario: '20:014',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Preciso de ajuda com Functions em JavaScript',
@@ -87,6 +105,8 @@ export class GridComponent implements OnInit {
         comentarios: 11,
         username: 'maycony',
         horario: '20:01',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Conselhos para me ajudar no meu projeto pessoal.',
@@ -94,6 +114,8 @@ export class GridComponent implements OnInit {
         comentarios: 1,
         username: 'ZambeliDev',
         horario: '20:07',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Como eu explicaria protocolos para uma criança de 12 anos!',
@@ -101,6 +123,8 @@ export class GridComponent implements OnInit {
         comentarios: 1,
         username: 'ojonatasquirino',
         horario: '20:03',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -109,6 +133,8 @@ export class GridComponent implements OnInit {
         comentarios: 1,
         username: 'Sabalozua18',
         horario: '20:06',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Vagas fecham antes de eu chegar na entrevista',
@@ -116,6 +142,8 @@ export class GridComponent implements OnInit {
         comentarios: 0,
         username: 'Anderson',
         horario: '20:06',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'O que tem sido debatido no TabNews? (02/09/2024 - 08/09/2024)',
@@ -123,6 +151,8 @@ export class GridComponent implements OnInit {
         comentarios: 0,
         username: 'luishjacinto',
         horario: '20:09',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Recomendação de livros',
@@ -130,6 +160,8 @@ export class GridComponent implements OnInit {
         comentarios: 1,
         username: 'Vradimmir',
         horario: '20:02',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -138,6 +170,8 @@ export class GridComponent implements OnInit {
         comentarios: 3,
         username: 'gabrielduete',
         horario: '20:03',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Dando mais moral para nossos colegas designers',
@@ -145,6 +179,8 @@ export class GridComponent implements OnInit {
         comentarios: 0,
         username: 'gabrielduete',
         horario: '20:03',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Faturei 50k com meu produto para surpreender minha namorada',
@@ -152,6 +188,8 @@ export class GridComponent implements OnInit {
         comentarios: 18,
         username: 'andreeliasdev',
         horario: '20:04',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'O Verdadeiro Custo do “Armazenamento Gratuito”',
@@ -159,6 +197,8 @@ export class GridComponent implements OnInit {
         comentarios: 1,
         username: '0xtny',
         horario: '20:07',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Pitch: Conheça o site Jogos em promoções (MVP Finalizado).',
@@ -166,6 +206,8 @@ export class GridComponent implements OnInit {
         comentarios: 24,
         username: 'saraiva',
         horario: '20:06',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Principais comandos perigosos em Linux',
@@ -173,6 +215,8 @@ export class GridComponent implements OnInit {
         comentarios: 8,
         username: 'JeielLimaMiranda',
         horario: '20:05',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Meu caminho até a minha primeira venda',
@@ -180,6 +224,8 @@ export class GridComponent implements OnInit {
         comentarios: 9,
         username: 'santigonzaga',
         horario: '20:05',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -188,6 +234,8 @@ export class GridComponent implements OnInit {
         comentarios: 9,
         username: 'umProgramadorCansado',
         horario: '20:04',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -196,6 +244,8 @@ export class GridComponent implements OnInit {
         comentarios: 11,
         username: 'hermogenes',
         horario: '20:05',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -204,6 +254,8 @@ export class GridComponent implements OnInit {
         comentarios: 6,
         username: 'eduardoMats',
         horario: '20:03',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Test runners e frameworks de teste em JavaScript',
@@ -211,6 +263,8 @@ export class GridComponent implements OnInit {
         comentarios: 3,
         username: 'rafael',
         horario: '20:05',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -219,6 +273,8 @@ export class GridComponent implements OnInit {
         comentarios: 6,
         username: 'koziel',
         horario: '20:03',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Meu problema com o temas dark',
@@ -226,6 +282,8 @@ export class GridComponent implements OnInit {
         comentarios: 12,
         username: 'itsmatheusmoura',
         horario: '20:04',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'O VSCode Já era???',
@@ -233,6 +291,8 @@ export class GridComponent implements OnInit {
         comentarios: 24,
         username: 'tocodando',
         horario: '20:07',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo:
@@ -241,6 +301,8 @@ export class GridComponent implements OnInit {
         comentarios: 0,
         username: 'Wellington79',
         horario: '20:03',
+        data: '14/09/2024',
+        texto: '123',
       },
       {
         titulo: 'Brasileiro líder do projeto Rust for Linux anuncia sua saída',
@@ -248,6 +310,8 @@ export class GridComponent implements OnInit {
         comentarios: 2,
         username: 'NewsletterOficial',
         horario: '20:05',
+        data: '14/09/2024',
+        texto: '123',
       },
     ];
 

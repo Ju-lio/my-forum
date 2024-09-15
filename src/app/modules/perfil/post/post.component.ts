@@ -1,7 +1,7 @@
 import { Subject, takeUntil } from 'rxjs';
 import { Artigo } from './../../../models/artigo.model';
 import { ArtigoService } from './../../../services/artigo.service';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -11,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PostComponent implements OnInit {
   artigo!: Artigo;
-  destroy$: Subject<unknown> = new Subject();
+  destroy$ = new Subject<unknown>();
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -30,7 +30,7 @@ export class PostComponent implements OnInit {
       .getPostContent(user, postId)
       .pipe(takeUntil(this.destroy$))
       .subscribe({
-        next: (response) => {
+        next: response => {
           if (response.body) this.artigo = response.body;
         },
       });

@@ -12,7 +12,7 @@ export class GridComponent implements OnInit {
   @Input() username: string | undefined;
 
   artigos!: Artigo[];
-  destroy$: Subject<unknown> = new Subject();
+  destroy$ = new Subject<unknown>();
 
   constructor(private artigoService: ArtigoService) {}
 

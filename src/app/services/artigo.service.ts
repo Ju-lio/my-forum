@@ -8,7 +8,7 @@ import { Artigo } from '../models/artigo.model';
   providedIn: 'root',
 })
 export class ArtigoService {
-  destroy$: Subject<unknown> = new Subject();
+  destroy$ = new Subject<unknown>();
 
   getPostContent(username: string, postId: string) {
     let artigos: Artigo[] = [];

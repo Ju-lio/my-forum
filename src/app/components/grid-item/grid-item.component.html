@@ -1,13 +1,13 @@
 <article>
   <h1 class="id">{{ id }}.</h1>
   <section>
-    <p class="titulo" (click)="goToPost(username ?? '', postId ?? '')">
+    <p class="titulo" (click)="goToPost(username, postId)">
       {{ titulo }}
     </p>
     <div class="detalhes">
       <p class="detalhe">{{ likes }} likes</p>
       <p class="detalhe">{{ comentarios }} comentários</p>
-      <p class="detalhe detalhe-click" (click)="goToPerfil(username ?? '')">
+      <p class="detalhe detalhe-click" (click)="goToPerfil(username)">
         {{ username }}
       </p>
       <p class="detalhe">{{ horario }}</p>

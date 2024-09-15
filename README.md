@@ -17,8 +17,8 @@
 - [x] Feed com os artigos
 - [x] Perfil do usuário
 - [x] Página do artigo
-- [x] Vincular rotas e parametros
-- [ ] Implementação de serviços
+- [x] Implementação de serviços
+- [x] Rotas e parametros (Navegação)
 - [ ] Cadastro de usuários
 - [ ] Login de usuário
 - [ ] Postagem de artigos

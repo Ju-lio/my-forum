@@ -2,7 +2,8 @@
   <article>
     <h1>{{ username }}</h1>
     <section>
-      <h2>Perfil</h2>
+      <h2>Artigos</h2>
+      <app-grid [username]="username"></app-grid>
       <p>{{ likes }} Likes Membro há {{ dias }} dias</p>
     </section>
   </article>

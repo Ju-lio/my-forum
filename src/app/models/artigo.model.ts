@@ -1,4 +1,5 @@
 export interface Artigo {
+  id: string;
   titulo: string;
   likes: number;
   comentarios: number;

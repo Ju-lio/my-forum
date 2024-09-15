@@ -17,11 +17,11 @@ export class GridItemComponent {
 
   constructor(private router: Router) {}
 
-  goToPerfil(username: string) {
-    this.router.navigate([`/${username}`]);
+  goToPerfil(username: string | undefined) {
+    this.router.navigate([`/${username ?? ''}`]);
   }
 
-  goToPost(username: string, postId: string) {
-    this.router.navigate([`/${username}/${postId}`]);
+  goToPost(username: string | undefined, postId: string | undefined) {
+    this.router.navigate([`/${username ?? ''}/${postId ?? ''}`]);
   }
 }

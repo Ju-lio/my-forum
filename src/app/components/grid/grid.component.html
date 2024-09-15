@@ -1,13 +1,12 @@
-<main>
-  <article>
-    <app-grid-item
-      *ngFor="let artigo of artigos; index as i"
-      [id]="i + 1"
-      [titulo]="artigo.titulo"
-      [likes]="artigo.likes"
-      [comentarios]="artigo.comentarios"
-      [username]="artigo.username"
-      [horario]="artigo.horario"
-    ></app-grid-item>
-  </article>
-</main>
+<article>
+  <app-grid-item
+    *ngFor="let artigo of artigos; index as i"
+    [id]="i + 1"
+    [titulo]="artigo.titulo"
+    [likes]="artigo.likes"
+    [comentarios]="artigo.comentarios"
+    [username]="artigo.username"
+    [horario]="artigo.horario"
+    [postId]="artigo.id"
+  ></app-grid-item>
+</article>

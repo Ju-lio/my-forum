@@ -4,14 +4,19 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
   {
+    path: 'cadastro',
+    loadChildren: () =>
+      import('./modules/cadastro/cadastro.module').then(m => m.CadastroModule),
+  },
+  {
     path: ':id',
     loadChildren: () =>
-      import('./modules/perfil/perfil.module').then((m) => m.PerfilModule),
+      import('./modules/perfil/perfil.module').then(m => m.PerfilModule),
   },
   {
     path: '',
     loadChildren: () =>
-      import('./modules/inicio/inicio.module').then((m) => m.InicioModule),
+      import('./modules/inicio/inicio.module').then(m => m.InicioModule),
   },
   { path: '**', component: NotFoundComponent },
 ];

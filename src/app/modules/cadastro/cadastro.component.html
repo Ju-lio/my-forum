@@ -1,0 +1,34 @@
+<main>
+  <article>
+    <h1>Cadastro</h1>
+    <section>
+      <app-input
+        [title]="'Nome de usuário'"
+        [subtitle]="'Esse nome será exibido publicamente.'"></app-input>
+      <app-input [title]="'Email'"></app-input>
+      <app-input [title]="'Senha'"></app-input>
+
+      <div class="termos-de-uso">
+        <label class="custom-checkbox">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+        <p>Li e estou de acordo com os <a>Termos de Uso.</a></p>
+      </div>
+    </section>
+    <button>Criar cadastro</button>
+    <footer>
+      <nav>
+        <li>Contato</li>
+        <li>FAQ</li>
+        <li>GitHub</li>
+        <li>Museu</li>
+        <li>RSS</li>
+        <li>Sobre</li>
+        <li>Status</li>
+        <li>Termos de uso</li>
+      </nav>
+      <p>© 2024 My-TabNews</p>
+    </footer>
+  </article>
+</main>

@@ -12,4 +12,8 @@ export class HeaderComponent {
   goToHome() {
     this.router.navigate(['/']);
   }
+
+  goToCadastro() {
+    this.router.navigate(['/cadastro']);
+  }
 }

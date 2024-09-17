@@ -19,9 +19,14 @@
 - [x] Página do artigo
 - [x] Implementação de serviços
 - [x] Rotas e parametros (Navegação)
-- [ ] Cadastro de usuários
-- [ ] Login de usuário
-- [ ] Postagem de artigos
+- [x] Cadastro de usuários (front-end)
+- [x] Login de usuário (front-end)
+- [ ] Recuperação de senha (front-end)
+- [ ] Postagem de artigos (front-end)
+- [ ] Termos de uso
+- [ ] Cadastro de usuários (back-end)
+- [ ] Login de usuário (back-end)
+- [ ] Recuperação de senha (back-end)
 - [ ] Responsividade para mobile
 - [ ] Versão 1.0 hospedada
 - [ ] Sessão de comentários nas postagens

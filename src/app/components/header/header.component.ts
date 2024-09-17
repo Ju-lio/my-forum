@@ -13,7 +13,7 @@ export class HeaderComponent {
     this.router.navigate(['/']);
   }
 
-  goToCadastro() {
-    this.router.navigate(['/cadastro']);
+  goToRoute(route: string) {
+    this.router.navigate([route]);
   }
 }

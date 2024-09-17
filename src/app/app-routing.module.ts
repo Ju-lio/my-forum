@@ -9,6 +9,11 @@ const routes: Routes = [
       import('./modules/cadastro/cadastro.module').then(m => m.CadastroModule),
   },
   {
+    path: 'login',
+    loadChildren: () =>
+      import('./modules/login/login.module').then(m => m.LoginModule),
+  },
+  {
     path: ':id',
     loadChildren: () =>
       import('./modules/perfil/perfil.module').then(m => m.PerfilModule),

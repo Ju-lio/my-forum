@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { GridComponent } from './grid/grid.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HeaderToolbarComponent } from './header-toolbar/header-toolbar.component';
 import { GridItemComponent } from './grid-item/grid-item.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { InputComponent } from './input/input.component';
@@ -12,7 +11,6 @@ import { InputComponent } from './input/input.component';
   declarations: [
     HeaderComponent,
     FooterComponent,
-    HeaderToolbarComponent,
     GridComponent,
     GridItemComponent,
     NotFoundComponent,
@@ -22,7 +20,6 @@ import { InputComponent } from './input/input.component';
   exports: [
     HeaderComponent,
     FooterComponent,
-    HeaderToolbarComponent,
     GridComponent,
     GridItemComponent,
     InputComponent,
